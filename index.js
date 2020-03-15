@@ -20,6 +20,9 @@ function appendKitten (name){
   return kitties
 }
 
-// function(){}
+ function prependKitten(name){
+   let kitties = [name,...kittens]
+   return kitties
+ }
 // function(){}
 // function(){}
