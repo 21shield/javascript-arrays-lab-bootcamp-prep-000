@@ -24,5 +24,11 @@ function appendKitten (name){
    let kitties = [name,...kittens]
    return kitties
  }
-// function(){}
-// function(){}
+function removeLastKitten(){
+  let babyCats = kittens.splice(0,kittens.length-1)
+  return babyCats
+}
+ function removeFirstKitten(){
+   let babyCats = kittens.splice(1)
+   return babyCats
+ }
