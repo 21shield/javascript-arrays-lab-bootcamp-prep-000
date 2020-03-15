@@ -29,6 +29,6 @@ function removeLastKitten(){
   return babyCats
 }
  function removeFirstKitten(){
-   let babyCats = kittens.splice()
+   let babyCats = kittens.slice(1,kittens.length)
    return babyCats
  }
