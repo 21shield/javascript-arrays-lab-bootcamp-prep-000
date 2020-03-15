@@ -11,9 +11,9 @@ function destructivelyRemoveLastKitten(name){
   kittens.pop()
   return kittens
 }
-function destructivelyRemoveFirstKitten () {
-  kittens.splice(0,kittens.length)
-  return kittens
+function destructivelyRemoveFirstKitten (name) {
+
+  return kittens.unshift()
 }
 function apendKitten (name){
   return [...kittens, name]
