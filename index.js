@@ -19,6 +19,6 @@ function apendKitten (name){
   return [...kittens, name]
 }
 
-function(){}
-function(){}
-function(){}
+// function(){}
+// function(){}
+// function(){}
