@@ -15,7 +15,7 @@ function destructivelyRemoveFirstKitten (name) {
 
   return kittens.shift()
 }
-function apendKitten (name){
+function appendKitten (name){
   let kitties =  [...kittens, name]
   return kitties
 }
