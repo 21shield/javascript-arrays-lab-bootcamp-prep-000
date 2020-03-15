@@ -25,7 +25,7 @@ function appendKitten (name){
    return kitties
  }
 function removeLastKitten(){
-  let babyCats = kittens.splice(0,kittens.length-1)
+  let babyCats = kittens.slice(0,kittens.length-1)
   return babyCats
 }
  function removeFirstKitten(){
